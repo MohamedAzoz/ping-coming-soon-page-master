@@ -15,7 +15,7 @@
   color: #ff5263; }
 
 .correct {
-  color: greenyellow; }
+  color: #0ecf0e; }
 
 body {
   width: 100%;
@@ -117,51 +117,42 @@ body {
     body main {
       display: grid;
       grid-template-areas: ". . header header header header . ." ". . section section section section . ." ". . section section section section . ." ". . footer footer footer footer . ."; }
-      body main header {
-        width: 100%;
-        display: grid;
-        grid-area: header;
-        justify-items: center;
-        justify-content: center; }
-        body main header img {
-          display: block;
-          margin: auto;
-          margin-bottom: 3rem; }
-        body main header h1 {
-          font-size: 1.7rem;
-          font-weight: 300;
-          margin-bottom: 1.2rem;
-          color: #969696; }
-          body main header h1 strong {
-            font-weight: 700;
-            color: #151f29; }
-        body main header p {
+      body main header img {
+        display: block;
+        margin: auto;
+        margin-bottom: 3rem; }
+      body main header h1 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-bottom: 1.2rem;
+        color: #969696; }
+        body main header h1 strong {
+          font-weight: 700;
           color: #151f29; }
-      body main section {
-        display: grid;
-        grid-area: section;
-        justify-items: center;
-        justify-content: center; }
-        body main section form {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          margin: 2rem 0; }
-          body main section form #email {
-            width: 300px;
-            margin-right: 0rem; }
-          body main section form .error {
-            margin-bottom: 1rem; }
-            body main section form .error p {
-              margin: 0.5rem auto;
-              padding-left: 1.6rem;
-              text-align: center; }
-          body main section form #submit {
-            width: 300px; }
-        body main section img {
-          width: 350px;
-          margin-top: 2.7rem;
-          margin-bottom: 4rem; } }
+      body main header p {
+        color: #151f29; }
+      body main section .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem 0; }
+        body main section .form #email {
+          width: 300px;
+          margin-right: 0rem; }
+        body main section .form .error {
+          margin-bottom: 1rem; }
+          body main section .form .error p {
+            margin: 0.5rem auto;
+            padding-left: 1.6rem;
+            text-align: center; }
+        body main section .form #submit {
+          width: 300px; }
+      body main section img {
+        width: 350px;
+        margin-top: 2.7rem;
+        margin-bottom: 4rem; }
+      body main footer p {
+        font-size: 0.6rem; } }
 
 /*# sourceMappingURL=style.css.map */
