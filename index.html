@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+<body>
+  <main>
+    <header>
+      <img src="./images/logo.svg" alt="">
+      <h1>We are launching <strong>soon!</strong></h1>
+      <p>Subscribe and get notified</p>
+    </header>
+    <section>
+      <div class="form">
+        <div class="error">
+          <input class="input" type="email" id="email" placeholder="Your email address..." name="email" required>
+          <p class="hidden false">please provide a valid email address</p>
+          <p class="hidden correct">email is correct</p>
+        </div>
+        <button class="input" id="submit">Notify Me</button>
+      </div>
+      <img src="./images/illustration-dashboard.png" alt="">
+    </section>
+    <footer>
+      <div id="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+  </main>
+<script src="main.js"></script>
+</body>
+</html>
